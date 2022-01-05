@@ -6,37 +6,25 @@
     <parent>
     	<groupId>com.microservicios</groupId>
 		<artifactId>microservice-microservicios-pom</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<relativePath>../parent-poms/microservice</relativePath>
 	</parent>
 
-	<groupId>com.microservicios.apigatewayejemplo</groupId>
+	<groupId>com.microservicios</groupId>
 	<artifactId>ApiGateway-Ejemplo</artifactId>
 	<version>${apigatewayejemplo.version}</version>
-	
-	<properties>
-		<!--  <sonar.moduleKey>............:${sonar.jenkins.branch}</sonar.moduleKey>-->
-	</properties>
+
 	<dependencies>
-		 <dependency>
-	      <groupId>org.springframework.cloud</groupId>
-	      <artifactId>spring-cloud-starter-zuul</artifactId>
-	      <version>1.4.6.RELEASE</version>
-	    </dependency>
-		<!-- 
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
 		</dependency>
-		-->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-webflux-ui</artifactId>
+			<version>1.6.3</version>
+		</dependency>
+
 	</dependencies>
-	<!-- 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>nexus-snapshots</id>
-			<url>https://nexus-oami.altia.es/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-	 -->
-	
+
 </project>

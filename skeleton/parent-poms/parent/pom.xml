@@ -5,16 +5,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.1</version>
+		<version>2.6.2</version>
 	</parent>
 	<groupId>com.microservicios</groupId>
 	<artifactId>microservicios-pom</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	
 	<properties>
-		<servicioejemplo.version>v0.0.0.1</servicioejemplo.version>
-		<apigatewayejemplo.version>v0.0.0.1</apigatewayejemplo.version>
+		<servicioejemplo.version>1.0.0</servicioejemplo.version>
+		<apigatewayejemplo.version>1.0.0</apigatewayejemplo.version>
+		<common-interfaces.version>1.0.0</common-interfaces.version>
 	</properties>
 
 </project>
