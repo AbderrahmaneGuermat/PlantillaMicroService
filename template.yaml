@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: plantilla-springboot
-  title: Plantilla Ejemplo Spring Boot
-  description: Create an example of spring project
+  name: Plantilla-MicroServicios
+  title: Plantilla Microservicios de Referencia
+  description: Create an example of microservices project
   tags:
     - recommended
     - java
